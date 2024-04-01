@@ -5,11 +5,11 @@ pipeline {
         ECR_REPOSITORY_NAME = 'kranthi-repo'
         ECR_REPOSITORY = '996034040698.dkr.ecr.ap-south-1.amazonaws.com/kranthi-repo'
         REGION = 'ap-south-1'
-        ECS_CLUSTER = 'champ-far'
-        ECS_SERVICE = 'champ_service'
+        ECS_CLUSTER = 'ecs-ec2'
+        ECS_SERVICE = 'ecs-ec2-srv'
         ACCOUNT_NO = '996034040698'
         JOB_NAME = 'ecs-far-champ'
-        WORKSPACE = '/var/lib/jenkins/jobs/ecs-far-champ'
+        WORKSPACE = '/var/lib/jenkins/jobs/ecs-ec2'
         ECS_TIMEOUT = '600'
     }
     stages {
