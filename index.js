@@ -37,7 +37,7 @@ app.get("/", (req, res) => {
           100% { color: red; }
         }
         .animated-text {
-          animation: rainbow 4s infinite;
+          animation: rainbow 6s infinite;
         }
       </style>
     </head>
